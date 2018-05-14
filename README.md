@@ -36,7 +36,9 @@ export BLYNK_TOKEN=Your Token Here
 
 Run the server.
 
-`sudo node doorlock.js`
+```
+sudo node doorlock.js
+```
 
 ## Running at Startup
 
