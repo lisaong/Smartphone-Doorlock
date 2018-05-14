@@ -37,7 +37,8 @@ var motorPin = 14;
 var buttonPin = 4
 var ledPin = 17
 
-var blynkToken = 'blynk_token_here';
+// read the blynk token from the 'BLYNK_TOKEN' environment variable
+var blynkToken = process.env.BLYNK_TOKEN;
 
 // *** Start code *** //
 
