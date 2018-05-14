@@ -56,3 +56,6 @@ Press `i`, then scroll down and add `sudo node <Your Directory From pwd>/doorloc
 
 Press `esc`, then type `:wq!` to save and exit. Restart the Pi to start the program.
 
+## Controlling the device from Blynk
+
+Follow the instructions [here](http://docs.blynk.cc/#blynk-main-operations-send-data-from-app-to-hardware) to add a V0 virtual button to your app.
