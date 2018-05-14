@@ -28,15 +28,13 @@ Install the dependencies (if it fails, delete node_modules and retry without sud
 sudo npm install
 ```
 
-Add the Blynk auth token by opening up the `doorlock.js` file and replacing the `blynkToken` variable.
+Add the Blynk auth token by setting the `BLYNK_TOKEN` enviroment variable.
 
 ```
-vim doorlock.js
+export BLYNK_TOKEN=Your Token Here
 ```
 
-Scroll down, press `i` to edit in vim, and replace the token between the single quotes. Press `esc` then type `:wq` to save and quit.
-
-`sudo node doorlock.js` starts the program.
+`sudo node doorlock.js`
 
 ## Running at Startup
 
