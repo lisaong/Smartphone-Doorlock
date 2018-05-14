@@ -34,6 +34,8 @@ Add the Blynk auth token by setting the `BLYNK_TOKEN` enviroment variable.
 export BLYNK_TOKEN=Your Token Here
 ```
 
+Run the server.
+
 `sudo node doorlock.js`
 
 ## Running at Startup
