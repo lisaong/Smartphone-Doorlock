@@ -37,6 +37,11 @@ var motorPin = 14;
 var buttonPin = 4
 var ledPin = 17
 
+// allow motor pin to be overwritten via environment variable
+if (process.env.MOTOR_GPIO_PIN) {
+    motorPin = process.env.MOTOR_GPIO_PIN;
+}
+
 // read the blynk token from the 'BLYNK_TOKEN' environment variable
 var blynkToken = process.env.BLYNK_TOKEN;
 
